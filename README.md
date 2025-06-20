@@ -1,1 +1,2 @@
-uvx --from git+ssh://git@github.com/asmith26/debug-uvx-gitlfs.git
+uvx --from git+ssh://git@github.com/asmith26/debug-uvx-gitlfs.git my_package
+uvx --from git+ssh://git@github.com/asmith26/debug-uvx-gitlfs.git my_package_gitlfs

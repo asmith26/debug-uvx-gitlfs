@@ -12,3 +12,4 @@ build-backend = "hatchling.build"
 
 [project.scripts]
 my_package = "my_package.main:main"
+my_package_gitlfs = "my_package.main:main_gitlfs"
