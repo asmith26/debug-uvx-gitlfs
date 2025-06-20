@@ -1,8 +1,11 @@
+from pathlib import Path
+
+
 def main():
     print("Hello my_package!")
 
 def main_gitlfs():
-    with open("git-lfs.txt", "r") as f:
+    with (Path(__file__).parent / "git-lfs.txt").open("r") as f:
         print(f.read())  # Should print "Hello my_package_gitlfs!"
 
 
