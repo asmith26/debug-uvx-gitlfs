@@ -1,5 +1,5 @@
 def main():
-    print("Hello from debug-uvx-gitlfs!")
+    print("Hello my_package!")
 
 
 if __name__ == "__main__":
